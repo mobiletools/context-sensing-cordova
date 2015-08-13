@@ -1,0 +1,32 @@
+{
+  "name": "context-sensing-cordova",
+  "version": "0.0.1",
+  "description": "Intel Context API's for Cordova apps",
+  "cordova": {
+    "id": "context-sensing-plugin-for-cordova",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobiletools/context-sensing-cordova.git"
+  },
+  "keywords": [
+    "contextsensing",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Ian Maffett <ian.maffett@intel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobiletools/context-sensing-cordova/issues"
+  },
+  "homepage": "https://github.com/mobiletools/context-sensing-cordova#readme"
+}
