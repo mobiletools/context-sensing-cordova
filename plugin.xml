@@ -4,13 +4,13 @@
     id="context-sensing-plugin-for-cordova"
     version="1.0.0">
 
-    <name>ContextSensingForCordova</name>
+    <name>Context Sensing Plug-In for Cordova</name>
 
     <description>Intel Context API's for Cordova apps</description>
 
     <author>Ian Maffett</author>
 
-    <keywords>ContextSensingForCordova</keywords>
+    <keywords>contextsensing</keywords>
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />
