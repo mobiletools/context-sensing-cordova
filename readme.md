@@ -91,6 +91,25 @@ Object {mType: "BAG_MOTION"}
 See the example folder for a test app.
 
 
+```
+//This will run every time the terminal context changes
+intel.context.enableSensing('TERMINAL_CONTEXT',function(data){
+   console.log("The orientation is "+data.orientation);
+   console.log("The face direction is "+data.face);
+},function(err){
+   console.log("Error "+err);
+});
+
+//this will only run once
+intel.context.getItem('TERMINAL_CONTEXT',function(data){
+   console.log("The orientation is "+data.orientation);
+   console.log("The face direction is "+data.face);
+},function(err){
+   console.log("Error "+err);
+});
+```
+
+
 #License
 
 This plugin uses code from
